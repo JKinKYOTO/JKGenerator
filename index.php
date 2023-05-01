@@ -5,11 +5,12 @@
   <title>女子高生になってみたー</title>
   <style>
     h1,h2,form{text-align:center}
+    p{margin:1vmin;line-height:1.5}
     .resulttitle{background-color:#00c5ff;color:white;padding:4px 0;margin:0}
     .resulttable{font-size:3vmin;border:1.5vmin solid #00c5ff;width:480px;margin:4vmin auto}
     .resulttablecontainer{padding:2vmin}
-    p{margin:0;line-height:1.5}
-    .tweet-button{color:white;background-color:#1d9bf0;border-radius:4px;padding:2px 10px;margin:2vmin 0 0;text-decoration:none}
+    .resulttablecontainer p{margin:0}
+    .tweet-button{color:white;background-color:#1d9bf0;border-radius:4px;padding:2px 10px;text-decoration:none}
   </style>
 </head>
 <body>
@@ -159,5 +160,6 @@
     echo urlencode("?name={$url_name}");}
     ?>" target="_blank" rel="noopener noreferrer">ツイート</a>
   </p>
+  <p>制作背景。同種のとても有名な診断メーカー製の「あなたを女子高生化してみたー」は結果が日替わり。その為、日をかえて回していけば好きな結果にすることが可能。そこで結果が固定される診断が欲しくなり作成しました。雀魂の牌山生成にも使われているMD5ハッシュを利用。</p>
 </body>
 </html>

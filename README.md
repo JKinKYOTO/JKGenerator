@@ -1,1 +1,1 @@
-[女子高生になってみたー](https://jkinmeaux.github.io/JKGenerator/index.php)
+[女子高生になってみたー](https://jkinmeaux.github.io/JKGenerator)

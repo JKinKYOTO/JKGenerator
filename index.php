@@ -156,10 +156,10 @@
   <p style="text-align:center">
     <a class="tweet-button" href="https://twitter.com/intent/tweet?text=<?php if(isset($_GET['name'])){
     echo urlencode("{$name}さんが女子高生になったら\n{$grade_th}年{$class_th}組 {$name}ちゃん\n髪…{$hair_color}{$hair_quality}{$hair_length}\n目…{$eye_opening}\n身長…{$height}\n系統…{$party}系\n特徴…{$personality}\n性格…{$character}\nバスト…{$cup}\n得意科目…{$favorite_subject}");
-    }else{echo urlencode("あなたが女子高生になったら");}echo urlencode("\n#女子高生になってみたー");?>&url=<?php echo urlencode("https://jkinmeaux.github.io/JKGenerator");if(isset($_GET['name'])){
+    }else{echo urlencode("あなたが女子高生になったら");}echo urlencode("\n#女子高生になってみたー");?>&url=<?php echo urlencode("https://jkinhelsinki.github.io/JKGenerator");if(isset($_GET['name'])){
     echo urlencode("?name={$url_name}");}
     ?>" target="_blank" rel="noopener noreferrer">ツイート</a>
   </p>
-  <p>制作背景。同種のとても有名な診断メーカー製の「あなたを女子高生化してみたー」は結果が日替わり。その為、日をかえて回していけば好きな結果にすることが可能。そこで結果が固定される診断が欲しくなり作成しました。雀魂の牌山生成にも使われているMD5ハッシュを利用。</p>
+  <p>制作背景。同種のとても有名な診断メーカー製の「あなたを女子高生化してみたー」は結果が日替わり。その為、日をかえて回していけば好きな結果にすることが可能。そこで結果が固定される診断が欲しくなり作成しました。雀魂の牌山生成にも使われていたMD5ハッシュを利用。</p>
 </body>
 </html>

@@ -832,7 +832,7 @@ function generateJK() {
 
   tweetBtn.style.display="block";
   tweetBtn.onclick = function() {
-    const url = "https://jkinhelsinki.github.io/JKGenerator"; // 共有するURLを設定する
+    const url = "https://jkinkyoto.github.io/JKGenerator"; // 共有するURLを設定する
     const text = `${inputValue}さんが女子高生になったら%0A${gradeTh}年${classTh}組 ${inputValue}ちゃん%0A髪…${hairColor}${hairQuality}${hairLength}%0A目…${eyeOpening}%0A身長…${height}%0A系統…${party}系%0A特徴…${personality}%0A性格…${character}%0Aバスト…${cup}%0A得意科目…${favoriteSubject}`; // 共有するテキストを設定する
     const hashtags = "女子高生になってみたー"; // 共有するハッシュタグを設定する
     window.open(`https://twitter.com/intent/tweet?text=${text}%0A%23${hashtags}&url=${url}`,'_blank');

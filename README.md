@@ -1,2 +1,2 @@
 # JKGenerator
-[女子高生になってみたー](https://jkinhelsinki.github.io/JKGenerator/)
+[女子高生になってみたー](https://jkinkyoto.github.io/JKGenerator/)
